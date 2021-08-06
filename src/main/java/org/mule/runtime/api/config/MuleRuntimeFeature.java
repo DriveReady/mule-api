@@ -154,7 +154,13 @@ public enum MuleRuntimeFeature implements Feature {
       "If set to true, the set variable will create a variable even if the value is null",
       "MULE-19443",
       "4.4.0",
-      SET_VARIABLE_WITH_NULL_VALUE_PROPERTY);
+      SET_VARIABLE_WITH_NULL_VALUE_PROPERTY),
+
+  THE_CHIQUI_UBI_SUNT_CONGRESO_MOMENT(
+      "If set to true, the Chiqui is notalgic",
+      "MULE-HACK",
+      "4.4.0",
+      "mule.chiqui.enabled");
 
   private final String description;
   private final String issueId;
